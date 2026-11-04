@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="DECORATEC — Persianas de aluminio exterior, cortinas roller, toldos y persianas para hogares y espacios comerciales. Seguridad, aislación térmica y protección solar.">
+  <meta name="keywords"
+    content="persianas aluminio exterior, cortinas roller, toldos, sunscreen, blackout, persianas verticales, seguridad, protección solar">
+  <title>DECORATEC — Persianas de Exterior, Cortinas y Toldos</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="fotos/Logo.png">
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container container--wide navbar__inner">
+      <a href="index.html" aria-label="DECORATEC inicio">
+        <img src="fotos/Logo.png" alt="DECORATEC Logo" class="navbar__logo">
+      </a>
+
+      <div class="navbar__menu" id="navMenu">
+        <ul class="navbar__links">
+          <li><a href="#hero" class="navbar__link active" data-section="hero">Inicio</a></li>
+          <li><a href="#beneficios" class="navbar__link" data-section="beneficios">¿Por qué elegirnos?</a></li>
+          <li><a href="#productos" class="navbar__link" data-section="productos">Productos</a></li>
+          <li><a href="#contacto" class="navbar__link" data-section="contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="navbar__overlay" id="navOverlay"></div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="fotos/Inicio.jpeg" alt="Casa con cortinas de exterior DECORATEC" loading="eager">
+    </div>
+    <div class="hero__overlay"></div>
+
+    <div class="container hero__content">
+      <h1 class="hero__title">
+        Seguridad, confort y <span>protección</span> para tu hogar
+      </h1>
+      <p class="hero__subtitle">
+        Especialistas en persianas de aluminio exterior con aislación térmica y acústica.
+        Complementamos tu espacio con cortinas roller, toldos y persianas de interior.
+      </p>
+      <div class="hero__actions">
+        <a href="#productos" class="btn btn--primary btn--lg">
+          Ver Productos
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
+          </svg>
+        </a>
+        <a href="#contacto" class="btn btn--outline btn--lg">
+          Solicitar Cotización
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== BENEFITS ========== -->
+  <section class="benefits section-padding" id="beneficios">
+    <div class="container benefits__inner">
+      <div class="benefits__text reveal-left">
+        <span class="section-label">¿Por qué elegirnos?</span>
+        <h2 class="section-title">Protección y confort en una sola solución</h2>
+        <p class="benefits__description">
+          En DECORATEC nos especializamos en persianas de aluminio exterior y soluciones de
+          protección solar para hogares y espacios comerciales. Nuestras persianas están fabricadas
+          con lamas de aluminio rellenas de poliuretano de alta densidad, ofreciendo seguridad,
+          aislamiento térmico y acústico, y un control óptimo de la luz.
+        </p>
+        <a href="#contacto" class="btn btn--dark">
+          Contáctanos
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+      <div class="benefits__grid stagger-children">
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h3 class="benefit-card__title">Seguridad</h3>
+          <p class="benefit-card__desc">Persianas de aluminio que aumentan la seguridad de ventanas, puertas y accesos
+            de tu propiedad.</p>
+        </div>
+
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+          </div>
+          <h3 class="benefit-card__title">Aislamiento Térmico</h3>
+          <p class="benefit-card__desc">Lamas con relleno de poliuretano que mejoran la eficiencia energética y el
+            confort de tu espacio.</p>
+        </div>
+
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 3v1m0 16v1m-8-9H3m18 0h-1m-2.636-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+            </svg>
+          </div>
+          <h3 class="benefit-card__title">Protección Solar</h3>
+          <p class="benefit-card__desc">Control preciso de la luz natural y protección UV para muebles, pisos y
+            superficies.</p>
+        </div>
+
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+            </svg>
+          </div>
+          <h3 class="benefit-card__title">Eficiencia Energética</h3>
+          <p class="benefit-card__desc">Reduce el consumo energético con aislamiento que optimiza la climatización de tu
+            hogar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BANNER ========== -->
+  <section class="banner" id="banner">
+    <div class="container banner__inner">
+      <div class="banner__content reveal-left">
+        <span class="banner__tag">Oferta Especial</span>
+        <h2 class="banner__title">Solicita tu cotización <span>sin compromiso</span></h2>
+        <p class="banner__desc">
+          Medimos, diseñamos e instalamos. Agenda una visita técnica gratuita y recibe
+          un presupuesto personalizado para tu proyecto.
+        </p>
+      </div>
+      <div class="reveal-right">
+        <a href="#contacto" class="btn btn--primary btn--lg">
+          Cotizar Ahora
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRODUCTS ========== -->
+  <section class="section-padding" id="productos">
+    <div class="container">
+      <div class="products-header">
+        <div>
+          <span class="section-label">Catálogo</span>
+          <h2 class="section-title">Productos y Servicios</h2>
+          <p class="section-subtitle">Persianas de aluminio exterior como solución principal de seguridad,
+            complementadas con cortinas y toldos para mejorar el confort de tu hogar y espacios comerciales.</p>
+        </div>
+      </div>
+
+      <!-- Exterior Products (PRINCIPAL) -->
+      <div class="products__category reveal">
+        <div class="category-header">
+          <h3 class="category-header__title">Exterior</h3>
+          <div class="category-header__line"></div>
+          <a href="exterior.html" class="btn btn--ghost btn--sm">
+            Ver más
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="products__grid stagger-children">
+          <a href="exterior.html#persiana-aluminio-exterior" class="product-card reveal">
+            <div class="product-card__image">
+              <img src="fotos/Exterior1.jpg" alt="Persianas de Aluminio Exterior" loading="lazy">
+              <div class="product-card__overlay"></div>
+              <span class="product-card__view">Ver Detalle →</span>
+            </div>
+            <div class="product-card__body">
+              <h4 class="product-card__title">Persianas de Aluminio Exterior</h4>
+              <p class="product-card__desc">Máxima seguridad con aislamiento térmico y acústico. Lamas de aluminio con
+                relleno de poliuretano.</p>
+            </div>
+          </a>
+
+          <a href="exterior.html#toldo-vertical" class="product-card reveal">
+            <div class="product-card__image">
+              <img src="fotos/TOLDO VERTICALES 2.jpg" alt="Toldo Vertical" loading="lazy">
+              <div class="product-card__overlay"></div>
+              <span class="product-card__view">Ver Detalle →</span>
+            </div>
+            <div class="product-card__body">
+              <h4 class="product-card__title">Toldos Verticales</h4>
+              <p class="product-card__desc">Protección solar exterior con ventilación natural para terrazas y balcones.
+              </p>
+            </div>
+          </a>
+
+          <a href="exterior.html#toldo-proyectante" class="product-card reveal">
+            <div class="product-card__image">
+              <img src="fotos/TOLDO PROYECTANTE 2.jpg" alt="Toldo Proyectante" loading="lazy">
+              <div class="product-card__overlay"></div>
+              <span class="product-card__view">Ver Detalle →</span>
+            </div>
+            <div class="product-card__body">
+              <h4 class="product-card__title">Toldos Proyectantes</h4>
+              <p class="product-card__desc">Sombra ajustable con brazos extensibles para terrazas, patios y espacios
+                exteriores.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Interior Products (COMPLEMENTO) -->
+      <div class="products__category reveal">
+        <div class="category-header">
+          <h3 class="category-header__title">Interior</h3>
+          <div class="category-header__line"></div>
+          <a href="interior.html" class="btn btn--ghost btn--sm">
+            Ver más
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="products__grid stagger-children">
+          <a href="interior.html#roller-sunscreen" class="product-card reveal">
+            <div class="product-card__image">
+              <img src="fotos/ROLLER SUNSCREEN 2.jpg" alt="Cortina Roller Sunscreen" loading="lazy">
+              <div class="product-card__overlay"></div>
+              <span class="product-card__view">Ver Detalle →</span>
+            </div>
+            <div class="product-card__body">
+              <h4 class="product-card__title">Cortinas roller Sunscreen</h4>
+              <p class="product-card__desc">Tejido técnico microperforado que filtra los rayos UV manteniendo la
+                visibilidad exterior.</p>
+            </div>
+          </a>
+
+          <a href="interior.html#roller-blackout" class="product-card reveal">
+            <div class="product-card__image">
+              <img src="fotos/ROLLER BLACKOUT.jpg" alt="Cortina Roller BlackOut" loading="lazy">
+              <div class="product-card__overlay"></div>
+              <span class="product-card__view">Ver Detalle →</span>
+            </div>
+            <div class="product-card__body">
+              <h4 class="product-card__title">Cortinas roller BlackOut</h4>
+              <p class="product-card__desc">Tela opaca que bloquea el 100% de la luz exterior. Máxima privacidad y
+                control lumínico.</p>
+            </div>
+          </a>
+
+          <a href="interior.html#persiana-vertical" class="product-card reveal">
+            <div class="product-card__image">
+              <img src="fotos/PERSIANAS VERTICALES 2.jpg" alt="Persiana Vertical" loading="lazy">
+              <div class="product-card__overlay"></div>
+              <span class="product-card__view">Ver Detalle →</span>
+            </div>
+            <div class="product-card__body">
+              <h4 class="product-card__title">Persianas Verticales</h4>
+              <p class="product-card__desc">Láminas verticales orientables, ideales para ventanales y puertas de
+                terraza.</p>
+            </div>
+          </a>
+
+          <a href="interior.html#persiana-aluminio" class="product-card reveal">
+            <div class="product-card__image">
+              <img src="fotos/PERSIANAS DE ALUMINIO 2.jpg" alt="Persianas de Aluminio Interior" loading="lazy">
+              <div class="product-card__overlay"></div>
+              <span class="product-card__view">Ver Detalle →</span>
+            </div>
+            <div class="product-card__body">
+              <h4 class="product-card__title">Persianas de Aluminio</h4>
+              <p class="product-card__desc">Láminas horizontales de alta resistencia para control preciso de luz en
+                oficinas y hogares.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact section-padding" id="contacto">
+    <div class="container contact__inner">
+      <div class="contact__info reveal-left">
+        <span class="section-label">Contáctanos</span>
+        <h2 class="section-title">¿Listo para transformar tu espacio?</h2>
+        <p class="section-subtitle" style="margin-bottom: 2rem;">
+          Envíanos un mensaje y te responderemos a la brevedad con una cotización personalizada para tu proyecto.
+        </p>
+
+        <div class="contact__detail">
+          <div class="contact__detail-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          </div>
+          <div class="contact__detail-text">
+            <h4>Ubicación</h4>
+            <p>Santiago, Chile</p>
+          </div>
+        </div>
+
+        <div class="contact__detail">
+          <div class="contact__detail-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+          </div>
+          <div class="contact__detail-text">
+            <h4>Teléfono</h4>
+            <p>+56 9 1234 5678</p>
+          </div>
+        </div>
+
+        <div class="contact__detail">
+          <div class="contact__detail-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </div>
+          <div class="contact__detail-text">
+            <h4>Email</h4>
+            <p>contacto@decoratec.cl</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal-right">
+        <form class="contact-form" id="contactForm">
+          <h3 class="contact-form__title">Envíanos un mensaje</h3>
+          <p class="contact-form__subtitle">Completa el formulario y nos pondremos en contacto contigo.</p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-name">Nombre completo</label>
+              <input type="text" id="contact-name" name="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Correo electrónico</label>
+              <input type="email" id="contact-email" name="email" placeholder="tu@email.com" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-phone">Teléfono</label>
+              <input type="tel" id="contact-phone" name="phone" placeholder="+56 9 1234 5678">
+            </div>
+            <div class="form-group">
+              <label for="contact-service">Servicio de interés</label>
+              <select id="contact-service" name="service">
+                <option value="">Seleccionar...</option>
+                <option value="persiana-aluminio-ext">Persianas de Aluminio Exterior</option>
+                <option value="toldo-vertical">Toldos Verticales</option>
+                <option value="toldo-proyectante">Toldo Proyectante</option>
+                <option value="roller-sunscreen">Roller Sunscreen</option>
+                <option value="roller-blackout">Roller BlackOut</option>
+                <option value="persiana-vertical">Persianas Verticales</option>
+                <option value="persiana-aluminio">Persianas de Aluminio Interior</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Mensaje</label>
+            <textarea id="contact-message" name="message" placeholder="Cuéntanos sobre tu proyecto..."
+              required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--lg" id="contactSubmit">
+            Enviar Mensaje
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13" />
+              <polygon points="22 2 15 22 11 13 2 9 22 2" />
+            </svg>
+          </button>
+        </form>
+
+        <!-- Success state -->
+        <div class="form-success" id="formSuccess">
+          <div class="form-success__icon">
+            <svg viewBox="0 0 24 24">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+          </div>
+          <h3>¡Mensaje enviado!</h3>
+          <p>Nos pondremos en contacto contigo a la brevedad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="fotos/Logo.png" alt="DECORATEC" class="footer__logo">
+          <p>Especialistas en persianas de aluminio exterior y soluciones de confort para hogares y espacios
+            comerciales.</p>
+        </div>
+
+        <div>
+          <h4 class="footer__col-title">Navegación</h4>
+          <ul class="footer__links">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#beneficios">Garantía</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__col-title">Productos</h4>
+          <ul class="footer__links">
+            <li><a href="exterior.html#persiana-aluminio-exterior">Persianas Aluminio Exterior</a></li>
+            <li><a href="exterior.html">Toldos y Exterior</a></li>
+            <li><a href="interior.html">Cortinas de Interior</a></li>
+            <li><a href="interior.html#persiana-aluminio">Persianas de Aluminio</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__col-title">Contacto</h4>
+          <ul class="footer__links">
+            <li><a href="mailto:contacto@decoratec.cl">contacto@decoratec.cl</a></li>
+            <li><a href="tel:+56912345678">+56 9 1234 5678</a></li>
+            <li>Santiago, Chile</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 DECORATEC. Todos los derechos reservados.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+            </svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+          </a>
+          <a href="#" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
