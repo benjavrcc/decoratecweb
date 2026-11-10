@@ -378,8 +378,10 @@ button {
 
 .hero__content {
   position: relative;
-  max-width: 680px;
+  width: 40%;
   padding-top: var(--navbar-height);
+  flex: 1;
+  text-align: left;
 }
 
 .hero__badge {
@@ -400,12 +402,13 @@ button {
 }
 
 .hero__title {
-  font-size: var(--fs-display);
-  font-weight: 800;
-  line-height: 1.08;
+  font-size: clamp(3rem, 5vw, 6rem);
+  font-weight: 100%;
+  line-height: 1.4;
   color: var(--text-white);
   margin-bottom: var(--space-lg);
   letter-spacing: -0.02em;
+  width: 70%;
 }
 
 .hero__title span {
@@ -413,12 +416,12 @@ button {
 }
 
 .hero__subtitle {
-  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  font-size: clamp(1.9rem, 3vw, 1.8rem);
   font-weight: 300;
   line-height: var(--lh-relaxed);
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: var(--space-2xl);
-  max-width: 520px;
+  max-width: 690px;
 }
 
 .hero__actions {
@@ -606,6 +609,7 @@ button {
   padding: var(--space-xl);
   border-radius: var(--radius-lg);
   border: 1px;
+  text-align: center;
 }
 
 
@@ -627,6 +631,7 @@ button {
   stroke: var(--brand-dark);
   stroke-width: 1.5;
   fill: none;
+  align-items: center;
 }
 
 .benefit-card__title {
@@ -639,7 +644,9 @@ button {
 .benefit-card__desc {
   font-size: var(--fs-small);
   color: var(--text-muted);
+  height: 30%;
   line-height: var(--lh-normal);
+  text-align: justify;
 }
 
 /* ============================================
@@ -713,6 +720,27 @@ button {
   justify-content: space-between;
   margin-bottom: var(--space-3xl);
   gap: var(--space-xl);
+}
+
+.products-header h1 {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+  margin-left: 22.5%;
+  width: 55%;
+}
+
+.products-header p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #6b7280;
+  margin-left: 22.5%;
+  width: 55%;
 }
 
 .products-header__right {
@@ -1400,6 +1428,32 @@ button {
 
 .stagger-children>*:nth-child(6) {
   transition-delay: 0.3s;
+}
+
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  background-color: #25d366;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5b;
+  transform: translateY(-2px);
 }
 
 /* ============================================
